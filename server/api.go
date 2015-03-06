@@ -16,7 +16,7 @@ func SampleApi(c web.C, w http.ResponseWriter, r *http.Request) {
 	}
 	movies := &[]ppserver.Movie{
 		ppserver.Movie{
-			Url: r.URL.Scheme + "://" + r.Host + "/sample_movie.mp4",
+			Url: r.URL.Scheme + "://" + r.Host + "/apps/ppserver/demo/assets/sample_movie.mp4",
 			Title: "PPServer Sample",
 		},
 	}
